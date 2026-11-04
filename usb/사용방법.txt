@@ -1,0 +1,13 @@
+network.menu 1.0.1 (NEMESIS 패키지) - 설정 > 데이터/네트워크 메뉴(Wi-Fi / 핫스팟 탭) 표시
+
+설치
+1. 이 zip 안의 NEMESIS.data 와 packages 폴더를 USB(FAT32/exFAT) 최상위에 놓습니다.
+2. 시동을 켜고 부팅 후 1분쯤 기다린 뒤 USB를 꽂고 NEMESIS 에서 설치(이전 버전이 있으면 업데이트)를 확인합니다.
+3. 헤드유닛이 스스로 재부팅됩니다. 이후 설정에 "데이터/네트워크"가 Wi-Fi, 핫스팟 탭과 함께 나타납니다.
+
+제거
+- NEMESIS Manager 에서 network.menu 를 제거합니다. 원래 파일이 그대로 복원됩니다
+  (설정이 기능 목록을 다시 읽도록 이후 헤드유닛을 재부팅하세요).
+
+차량 로그: /data/nemesis/network.menu.log
+원래 파일 스냅샷: /data/nemesis/backup/network.menu/

@@ -1,0 +1,14 @@
+network.menu 1.0.1 (NEMESIS package) - shows Settings > Data/Network (Wi-Fi / Hotspot tabs)
+
+Install
+1. Put NEMESIS.data and the packages folder from this zip at the top of a USB stick (FAT32/exFAT).
+2. Start the car, wait about a minute after boot, insert the stick and confirm the install in NEMESIS
+   (an update if an earlier version is installed).
+3. The head unit reboots by itself. Settings then shows "Data/Network" with the Wi-Fi and Hotspot tabs.
+
+Remove
+- Uninstall network.menu in the NEMESIS Manager. The original files are written back
+  (reboot the head unit afterwards so Settings reloads the features).
+
+Log on the car: /data/nemesis/network.menu.log
+Snapshot of the original files: /data/nemesis/backup/network.menu/

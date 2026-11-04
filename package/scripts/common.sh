@@ -9,6 +9,10 @@
 #
 # Snapshot the live unit, then change it. Uninstall writes the snapshot back.
 # NM_SYS / NM_DATA exist only for host tests.
+#
+# Modified 2026-11 from xwtk/hmg_nemesis Sources/packages/wireless-projection/scripts/common.sh
+# (commit 345f171850c35742f84f0fbe511d0b7ab50364fc), AGPL-3.0: the same snapshot/apply/restore
+# structure, here for the wifihotspot and wifi features. See NOTICE.md.
 
 export PATH=/data/nemesis/bin:/sbin:/vendor/bin:/system/sbin:/system/bin:/system/xbin
 export LD_LIBRARY_PATH=/vendor/lib:/system/lib
